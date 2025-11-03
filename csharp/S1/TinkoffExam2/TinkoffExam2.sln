@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinkoffExam2", "TinkoffExam2.csproj", "{79966201-9DAA-4CEC-8C97-F6C3C5D60211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79966201-9DAA-4CEC-8C97-F6C3C5D60211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79966201-9DAA-4CEC-8C97-F6C3C5D60211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79966201-9DAA-4CEC-8C97-F6C3C5D60211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79966201-9DAA-4CEC-8C97-F6C3C5D60211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16C86E17-F62E-4FE6-9AF1-442DB25912A9}
+	EndGlobalSection
+EndGlobal

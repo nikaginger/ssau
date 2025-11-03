@@ -1,0 +1,7 @@
+C:\Users\veron\source\repos\csharp\Console\CalendarApp\bin\Debug\CalendarApp.exe.config
+C:\Users\veron\source\repos\csharp\Console\CalendarApp\bin\Debug\CalendarApp.exe
+C:\Users\veron\source\repos\csharp\Console\CalendarApp\bin\Debug\CalendarApp.pdb
+C:\Users\veron\source\repos\csharp\Console\CalendarApp\obj\Debug\CalendarApp.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\CalendarApp\obj\Debug\CalendarApp.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\CalendarApp\obj\Debug\CalendarApp.exe
+C:\Users\veron\source\repos\csharp\Console\CalendarApp\obj\Debug\CalendarApp.pdb

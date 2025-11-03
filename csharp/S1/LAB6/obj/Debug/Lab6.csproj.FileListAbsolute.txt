@@ -1,0 +1,7 @@
+C:\Users\veron\source\repos\csharp\Console\LAB6\bin\Debug\Lab6.exe.config
+C:\Users\veron\source\repos\csharp\Console\LAB6\bin\Debug\Lab6.exe
+C:\Users\veron\source\repos\csharp\Console\LAB6\bin\Debug\Lab6.pdb
+C:\Users\veron\source\repos\csharp\Console\LAB6\obj\Debug\Lab6.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\LAB6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\LAB6\obj\Debug\Lab6.exe
+C:\Users\veron\source\repos\csharp\Console\LAB6\obj\Debug\Lab6.pdb

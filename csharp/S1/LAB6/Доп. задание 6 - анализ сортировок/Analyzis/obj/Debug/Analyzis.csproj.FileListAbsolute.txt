@@ -1,0 +1,14 @@
+C:\Users\veron\source\repos\csharp\Console\Analyzis\bin\Debug\Analyzis.exe.config
+C:\Users\veron\source\repos\csharp\Console\Analyzis\bin\Debug\Analyzis.exe
+C:\Users\veron\source\repos\csharp\Console\Analyzis\bin\Debug\Analyzis.pdb
+C:\Users\veron\source\repos\csharp\Console\Analyzis\obj\Debug\Analyzis.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\Analyzis\obj\Debug\Analyzis.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\Analyzis\obj\Debug\Analyzis.exe
+C:\Users\veron\source\repos\csharp\Console\Analyzis\obj\Debug\Analyzis.pdb
+C:\Users\veron\source\repos\csharp\Console\LAB6\Доп. задание 6 - анализ сортировок\Analyzis\bin\Debug\Analyzis.exe.config
+C:\Users\veron\source\repos\csharp\Console\LAB6\Доп. задание 6 - анализ сортировок\Analyzis\bin\Debug\Analyzis.exe
+C:\Users\veron\source\repos\csharp\Console\LAB6\Доп. задание 6 - анализ сортировок\Analyzis\bin\Debug\Analyzis.pdb
+C:\Users\veron\source\repos\csharp\Console\LAB6\Доп. задание 6 - анализ сортировок\Analyzis\obj\Debug\Analyzis.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\LAB6\Доп. задание 6 - анализ сортировок\Analyzis\obj\Debug\Analyzis.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\LAB6\Доп. задание 6 - анализ сортировок\Analyzis\obj\Debug\Analyzis.exe
+C:\Users\veron\source\repos\csharp\Console\LAB6\Доп. задание 6 - анализ сортировок\Analyzis\obj\Debug\Analyzis.pdb

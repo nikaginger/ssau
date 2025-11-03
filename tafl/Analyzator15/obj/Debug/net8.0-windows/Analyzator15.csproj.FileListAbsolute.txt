@@ -1,0 +1,16 @@
+C:\Users\veron\source\repos\csharp\Analyzator15\bin\Debug\net8.0-windows\Analyzator15.exe
+C:\Users\veron\source\repos\csharp\Analyzator15\bin\Debug\net8.0-windows\Analyzator15.deps.json
+C:\Users\veron\source\repos\csharp\Analyzator15\bin\Debug\net8.0-windows\Analyzator15.runtimeconfig.json
+C:\Users\veron\source\repos\csharp\Analyzator15\bin\Debug\net8.0-windows\Analyzator15.dll
+C:\Users\veron\source\repos\csharp\Analyzator15\bin\Debug\net8.0-windows\Analyzator15.pdb
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.Form1.resources
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.csproj.GenerateResource.cache
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.AssemblyInfoInputs.cache
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.AssemblyInfo.cs
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.dll
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\refint\Analyzator15.dll
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.pdb
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\Analyzator15.genruntimeconfig.cache
+C:\Users\veron\source\repos\csharp\Analyzator15\obj\Debug\net8.0-windows\ref\Analyzator15.dll

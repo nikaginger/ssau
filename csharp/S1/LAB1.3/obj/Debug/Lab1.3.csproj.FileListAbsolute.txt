@@ -1,0 +1,7 @@
+C:\Users\veron\source\repos\csharp\Console\Lab1.3\bin\Debug\Lab1.3.exe.config
+C:\Users\veron\source\repos\csharp\Console\Lab1.3\bin\Debug\Lab1.3.exe
+C:\Users\veron\source\repos\csharp\Console\Lab1.3\bin\Debug\Lab1.3.pdb
+C:\Users\veron\source\repos\csharp\Console\Lab1.3\obj\Debug\Lab1.3.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\Lab1.3\obj\Debug\Lab1.3.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\Lab1.3\obj\Debug\Lab1.3.exe
+C:\Users\veron\source\repos\csharp\Console\Lab1.3\obj\Debug\Lab1.3.pdb

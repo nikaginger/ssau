@@ -1,0 +1,7 @@
+C:\Users\veron\source\repos\csharp\Console\AdditionTask\bin\Debug\AdditionTask.exe.config
+C:\Users\veron\source\repos\csharp\Console\AdditionTask\bin\Debug\AdditionTask.exe
+C:\Users\veron\source\repos\csharp\Console\AdditionTask\bin\Debug\AdditionTask.pdb
+C:\Users\veron\source\repos\csharp\Console\AdditionTask\obj\Debug\AdditionTask.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\AdditionTask\obj\Debug\AdditionTask.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\AdditionTask\obj\Debug\AdditionTask.exe
+C:\Users\veron\source\repos\csharp\Console\AdditionTask\obj\Debug\AdditionTask.pdb

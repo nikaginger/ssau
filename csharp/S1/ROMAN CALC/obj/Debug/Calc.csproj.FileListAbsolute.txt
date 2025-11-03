@@ -1,0 +1,14 @@
+C:\Users\veron\source\repos\csharp\Console\Calc\bin\Debug\Calc.exe.config
+C:\Users\veron\source\repos\csharp\Console\Calc\bin\Debug\Calc.exe
+C:\Users\veron\source\repos\csharp\Console\Calc\bin\Debug\Calc.pdb
+C:\Users\veron\source\repos\csharp\Console\Calc\obj\Debug\Calc.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\Calc\obj\Debug\Calc.exe
+C:\Users\veron\source\repos\csharp\Console\Calc\obj\Debug\Calc.pdb
+C:\Users\veron\source\repos\csharp\Console\ROMAN CALC\bin\Debug\Calc.exe.config
+C:\Users\veron\source\repos\csharp\Console\ROMAN CALC\bin\Debug\Calc.exe
+C:\Users\veron\source\repos\csharp\Console\ROMAN CALC\bin\Debug\Calc.pdb
+C:\Users\veron\source\repos\csharp\Console\ROMAN CALC\obj\Debug\Calc.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\ROMAN CALC\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\ROMAN CALC\obj\Debug\Calc.exe
+C:\Users\veron\source\repos\csharp\Console\ROMAN CALC\obj\Debug\Calc.pdb

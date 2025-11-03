@@ -1,0 +1,7 @@
+C:\Users\veron\source\repos\csharp\Console\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\veron\source\repos\csharp\Console\Lab5\bin\Debug\Lab5.exe
+C:\Users\veron\source\repos\csharp\Console\Lab5\bin\Debug\Lab5.pdb
+C:\Users\veron\source\repos\csharp\Console\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\Lab5\obj\Debug\Lab5.exe
+C:\Users\veron\source\repos\csharp\Console\Lab5\obj\Debug\Lab5.pdb

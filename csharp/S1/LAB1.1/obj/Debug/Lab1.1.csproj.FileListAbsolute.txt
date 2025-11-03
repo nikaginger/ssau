@@ -1,0 +1,14 @@
+C:\Users\veron\source\repos\csharp\Console\Lab1.1\bin\Debug\Lab1.1.exe.config
+C:\Users\veron\source\repos\csharp\Console\Lab1.1\bin\Debug\Lab1.1.exe
+C:\Users\veron\source\repos\csharp\Console\Lab1.1\bin\Debug\Lab1.1.pdb
+C:\Users\veron\source\repos\csharp\Console\Lab1.1\obj\Debug\Lab1.1.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\Lab1.1\obj\Debug\Lab1.1.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\Lab1.1\obj\Debug\Lab1.1.exe
+C:\Users\veron\source\repos\csharp\Console\Lab1.1\obj\Debug\Lab1.1.pdb
+C:\Users\veron\source\repos\csharp\Console\ЛР1\bin\Debug\Lab1.1.exe.config
+C:\Users\veron\source\repos\csharp\Console\ЛР1\bin\Debug\Lab1.1.exe
+C:\Users\veron\source\repos\csharp\Console\ЛР1\bin\Debug\Lab1.1.pdb
+C:\Users\veron\source\repos\csharp\Console\ЛР1\obj\Debug\Lab1.1.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\ЛР1\obj\Debug\Lab1.1.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\ЛР1\obj\Debug\Lab1.1.exe
+C:\Users\veron\source\repos\csharp\Console\ЛР1\obj\Debug\Lab1.1.pdb

@@ -1,0 +1,14 @@
+C:\Users\veron\source\repos\csharp\Console\LR-3\bin\Debug\LR-3.exe.config
+C:\Users\veron\source\repos\csharp\Console\LR-3\bin\Debug\LR-3.exe
+C:\Users\veron\source\repos\csharp\Console\LR-3\bin\Debug\LR-3.pdb
+C:\Users\veron\source\repos\csharp\Console\LR-3\obj\Debug\LR-3.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\LR-3\obj\Debug\LR-3.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\LR-3\obj\Debug\LR-3.exe
+C:\Users\veron\source\repos\csharp\Console\LR-3\obj\Debug\LR-3.pdb
+C:\Users\veron\source\repos\csharp\Console\S2\ЛР03\ЛР03\bin\Debug\LR-3.exe.config
+C:\Users\veron\source\repos\csharp\Console\S2\ЛР03\ЛР03\bin\Debug\LR-3.exe
+C:\Users\veron\source\repos\csharp\Console\S2\ЛР03\ЛР03\bin\Debug\LR-3.pdb
+C:\Users\veron\source\repos\csharp\Console\S2\ЛР03\ЛР03\obj\Debug\LR-3.csproj.AssemblyReference.cache
+C:\Users\veron\source\repos\csharp\Console\S2\ЛР03\ЛР03\obj\Debug\LR-3.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\S2\ЛР03\ЛР03\obj\Debug\LR-3.exe
+C:\Users\veron\source\repos\csharp\Console\S2\ЛР03\ЛР03\obj\Debug\LR-3.pdb

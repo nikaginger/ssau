@@ -1,0 +1,2 @@
+NOVEL hello 10 12 13
+STORY delta 20 23 24 25

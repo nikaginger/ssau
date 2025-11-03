@@ -1,0 +1,17 @@
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\bin\Debug\net8.0-windows\LR-7.exe
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\bin\Debug\net8.0-windows\LR-7.deps.json
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\bin\Debug\net8.0-windows\LR-7.runtimeconfig.json
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\bin\Debug\net8.0-windows\LR-7.dll
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\bin\Debug\net8.0-windows\LR-7.pdb
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.csproj.GenerateResource.cache
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.AssemblyInfoInputs.cache
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.AssemblyInfo.cs
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.csproj.CoreCompileInputs.cache
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.dll
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\refint\LR-7.dll
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.pdb
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR-7.genruntimeconfig.cache
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\ref\LR-7.dll
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR_7.Main.resources
+C:\Users\veron\source\repos\csharp\Console\ЛР07\LR-7\obj\Debug\net8.0-windows\LR_7.Edit.resources
