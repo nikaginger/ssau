@@ -1,0 +1,17 @@
+C:\Users\veron\Desktop\ssau\safety_base\LR02\bin\Debug\net8.0-windows\LR02.exe
+C:\Users\veron\Desktop\ssau\safety_base\LR02\bin\Debug\net8.0-windows\LR02.deps.json
+C:\Users\veron\Desktop\ssau\safety_base\LR02\bin\Debug\net8.0-windows\LR02.runtimeconfig.json
+C:\Users\veron\Desktop\ssau\safety_base\LR02\bin\Debug\net8.0-windows\LR02.dll
+C:\Users\veron\Desktop\ssau\safety_base\LR02\bin\Debug\net8.0-windows\LR02.pdb
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.Form1.resources
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.csproj.GenerateResource.cache
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.AssemblyInfoInputs.cache
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.AssemblyInfo.cs
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.csproj.CoreCompileInputs.cache
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.sourcelink.json
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.dll
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\refint\LR02.dll
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.pdb
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\LR02.genruntimeconfig.cache
+C:\Users\veron\Desktop\ssau\safety_base\LR02\obj\Debug\net8.0-windows\ref\LR02.dll

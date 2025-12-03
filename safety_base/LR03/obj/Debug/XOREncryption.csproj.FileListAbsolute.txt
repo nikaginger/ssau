@@ -1,0 +1,8 @@
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\bin\Debug\XOREncryption.exe.config
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\bin\Debug\XOREncryption.exe
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\bin\Debug\XOREncryption.pdb
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\obj\Debug\XOREncryption.csproj.AssemblyReference.cache
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\obj\Debug\XOREncryption.csproj.CoreCompileInputs.cache
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\obj\Debug\XOREncryption.exe
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\obj\Debug\XOREncryption.pdb
+C:\Users\veron\Desktop\ssau\safety_base\XOREncryption\obj\Debug\XOREncryption.exe.config
