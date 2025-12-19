@@ -30,47 +30,60 @@ private:
     char* filename;
 
 public:
-    SensorFile(const char* fname, const char* mode = "rb+") {
+    // конструктор: открыть файл в режиме append+read (ab+)
+    SensorFile(const char* fname) {
         filename = (char*)malloc(strlen(fname) + 1);
         assert(filename != nullptr);
         strcpy(filename, fname);
 
-        file = fopen(filename, mode);
+        file = fopen(filename, "ab+");
         if (!file) {
-            file = fopen(filename, "wb+");
+            fprintf(stderr, "Не удалось открыть или создать файл %s\n", filename);
+            free(filename);
+            filename = nullptr;
         }
     }
 
+    // деструктор: закрыть файл и освободить имя
     ~SensorFile() {
         if (file) fclose(file);
         if (filename) free(filename);
     }
 
-    // добавление датчика, возвращает позицию
+    // добавление датчика, возвращает позицию только что записанной записи
     unsigned long addSensor(unsigned shifr, const char* name) {
         assert(file);
-
-
         Sensor s;
         s.shifr = shifr;
         strncpy(s.name, name, 40);
         s.name[40] = '\0';
 
-        unsigned long pos = ftell(file);
-        fwrite(&s, sizeof(Sensor), 1, file);
+        // записываем в режиме append (не делаем fseek до конца)
+        if (fwrite(&s, sizeof(Sensor), 1, file) != 1) {
+            // ошибка записи
+            fflush(file);
+            return (unsigned long)-1;
+        }
         fflush(file);
+
+        // позиция конца после записи
+        long endpos = ftell(file);
+        if (endpos < 0) return (unsigned long)-1;
+        unsigned long pos = (unsigned long)(endpos - (long)sizeof(Sensor));
         return pos;
     }
 
     // поиск датчика по шифру, возвращает позицию
     bool findSensor(unsigned shifr, Sensor& s, unsigned long& pos) {
         assert(file);
-        fseek(file, 0, SEEK_SET);
+        // читаем с начала
+        if (fseek(file, 0, SEEK_SET) != 0) return false;
         Sensor temp;
         while (fread(&temp, sizeof(Sensor), 1, file) == 1) {
             if (temp.shifr == shifr) {
                 s = temp;
-                pos = ftell(file) - sizeof(Sensor);
+                long p = ftell(file);
+                pos = (unsigned long)(p - (long)sizeof(Sensor));
                 return true;
             }
         }
@@ -85,43 +98,68 @@ private:
     char* filename;
 
 public:
-    SubsystemFile(const char* fname, const char* mode = "rb+") {
+    // конструктор: открыть файл в режиме append+read (ab+)
+    SubsystemFile(const char* fname) {
         filename = (char*)malloc(strlen(fname) + 1);
         assert(filename != nullptr);
         strcpy(filename, fname);
 
-        file = fopen(filename, mode);
+        file = fopen(filename, "ab+");
         if (!file) {
-            file = fopen(filename, "wb+");
+            fprintf(stderr, "Не удалось открыть или создать файл %s\n", filename);
+            free(filename);
+            filename = nullptr;
         }
     }
 
+    // деструктор
     ~SubsystemFile() {
         if (file) fclose(file);
         if (filename) free(filename);
     }
 
-    // добавление подсистемы
+    // добавление подсистемы, вернуть позицию
     unsigned long addSubsystem(unsigned shifr, const char* name) {
         assert(file);
-        fseek(file, 0, SEEK_END);
-
         Subsystem s;
         s.shifr = shifr;
         strncpy(s.name, name, 40);
         s.name[40] = '\0';
 
-        unsigned long pos = ftell(file);
-        fwrite(&s, sizeof(Subsystem), 1, file);
+        // записываем
+        if (fwrite(&s, sizeof(Subsystem), 1, file) != 1) {
+            fflush(file);
+            return (unsigned long)-1;
+        }
         fflush(file);
+
+        long endpos = ftell(file);
+        if (endpos < 0) return (unsigned long)-1;
+        unsigned long pos = (unsigned long)(endpos - (long)sizeof(Subsystem));
         return pos;
     }
 
-    // поиск подсистемы по позиции
+    // получить подсистему по позиции
     bool getSubsystemByPos(unsigned long pos, Subsystem& s) {
         assert(file);
-        fseek(file, pos, SEEK_SET);
+        if (fseek(file, (long)pos, SEEK_SET) != 0) return false;
         return fread(&s, sizeof(Subsystem), 1, file) == 1;
+    }
+
+    // найти подсистему по шифру — полезный метод
+    bool findSubsystemByShifr(unsigned shifr, Subsystem& s, unsigned long& pos) {
+        assert(file);
+        if (fseek(file, 0, SEEK_SET) != 0) return false;
+        Subsystem temp;
+        while (fread(&temp, sizeof(Subsystem), 1, file) == 1) {
+            if (temp.shifr == shifr) {
+                s = temp;
+                long p = ftell(file);
+                pos = (unsigned long)(p - (long)sizeof(Subsystem));
+                return true;
+            }
+        }
+        return false;
     }
 };
 
@@ -132,29 +170,34 @@ private:
     char* filename;
 
 public:
-    LinkFile(const char* fname, const char* mode = "rb+") {
+    // конструктор: открыть файл в режиме append+read (ab+)
+    LinkFile(const char* fname) {
         filename = (char*)malloc(strlen(fname) + 1);
         assert(filename != nullptr);
         strcpy(filename, fname);
 
-        file = fopen(filename, mode);
+        file = fopen(filename, "ab+");
         if (!file) {
-            file = fopen(filename, "wb+");
+            fprintf(stderr, "Не удалось открыть или создать файл %s\n", filename);
+            free(filename);
+            filename = nullptr;
         }
     }
 
+    // деструктор
     ~LinkFile() {
         if (file) fclose(file);
         if (filename) free(filename);
     }
 
-    // добавление связи
+    // добавление связи (позиции записей)
     void addLink(unsigned long sensor_pos, unsigned long subsys_pos) {
         assert(file);
-        fseek(file, 0, SEEK_END);
         Link l;
         l.sensor_idx = sensor_pos;
         l.subsys_idx = subsys_pos;
+
+        // записываем
         fwrite(&l, sizeof(Link), 1, file);
         fflush(file);
     }
@@ -162,7 +205,7 @@ public:
     // поиск подсистемы по позиции датчика
     bool findSubsystemForSensor(unsigned long sensor_pos, unsigned long& subsys_pos) {
         assert(file);
-        fseek(file, 0, SEEK_SET);
+        if (fseek(file, 0, SEEK_SET) != 0) return false;
         Link l;
         while (fread(&l, sizeof(Link), 1, file) == 1) {
             if (l.sensor_idx == sensor_pos) {
@@ -194,7 +237,7 @@ int main() {
     int choice;
     do {
         menu();
-        scanf("%d", &choice);
+        if (scanf("%d", &choice) != 1) break;
 
         if (choice == 2) {
             unsigned shifr;
@@ -205,27 +248,24 @@ int main() {
             getchar();
             fgets(name, 41, stdin);
             name[strcspn(name, "\n")] = 0;
+
             unsigned long pos = sensorFile.addSensor(shifr, name);
+            if (pos == (unsigned long)-1) {
+                printf("Ошибка при добавлении датчика.\n");
+                continue;
+            }
             printf("Датчик добавлен. Позиция: %lu\n", pos);
 
             unsigned shifrSubsys;
             printf("Введите шифр подсистемы для связи с датчиком: ");
             scanf("%u", &shifrSubsys);
 
-            // ищем подсистему по шифру
+            // ищем подсистему по шифру через класс SubsystemFile
             Subsystem sub;
             bool foundSub = false;
             unsigned long posSubsys;
-            FILE* f = fopen("SUBSYS.DAT", "rb");
-            if (f) {
-                while (fread(&sub, sizeof(Subsystem), 1, f) == 1) {
-                    if (sub.shifr == shifrSubsys) {
-                        posSubsys = ftell(f) - sizeof(Subsystem);
-                        foundSub = true;
-                        break;
-                    }
-                }
-                fclose(f);
+            if (subsysFile.findSubsystemByShifr(shifrSubsys, sub, posSubsys)) {
+                foundSub = true;
             }
 
             if (foundSub) {
@@ -246,7 +286,12 @@ int main() {
             fgets(name, 41, stdin);
             name[strcspn(name, "\n")] = 0;
             unsigned long pos = subsysFile.addSubsystem(shifr, name);
-            printf("Подсистема добавлена. Позиция: %lu\n", pos);
+            if (pos == (unsigned long)-1) {
+                printf("Ошибка при добавлении подсистемы.\n");
+            }
+            else {
+                printf("Подсистема добавлена. Позиция: %lu\n", pos);
+            }
         }
         else if (choice == 3) {
             unsigned shifr;
@@ -265,6 +310,9 @@ int main() {
                 Subsystem sub;
                 if (subsysFile.getSubsystemByPos(posSubsys, sub)) {
                     printf("Датчик \"%s\" принадлежит подсистеме \"%s\"\n", s.name, sub.name);
+                }
+                else {
+                    printf("Не удалось прочитать подсистему по позиции.\n");
                 }
             }
             else {
